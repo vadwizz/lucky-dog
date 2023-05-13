@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Contains color_element.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function color_element_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the color_element module.
+    case 'help.page.color_element':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Adds a new color picker field for use against entities.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function color_element_theme() {
+  return [
+    'color_element' => [
+      'variables' => [
+        'color' => NULL,
+      ],
+      'render element' => 'children',
+    ],
+  ];
+}

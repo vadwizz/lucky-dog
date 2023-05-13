@@ -1,0 +1,15 @@
+name: MMenu Mobile Sliding Menu
+package: User interface
+description: "Mmenu is a mobile sliding menu module integrates the mmenu jQuery plugin [ https://mmenujs.com/ ] for creating slick, app look-alike sliding menus for your mobile website."
+type: module
+core_version_requirement: ^8.8 || ^9
+
+
+dependencies:
+  - libraries
+configure: mmenu.settings
+
+# Information added by Drupal.org packaging script on 2022-03-24
+version: '2.0.0-alpha1'
+project: 'mmenu'
+datestamp: 1648097323

@@ -1,0 +1,8 @@
+mmenu.settings:
+  path: '/admin/config/user-interface/mmenu'
+  defaults:
+    _form: '\Drupal\mmenu\Form\MmenuSettingsForm'
+    _title: 'Mobile Sliding Menu'
+    mmenu_name: 'mmenu_left'
+  requirements:
+    _permission: 'administer mmenu'

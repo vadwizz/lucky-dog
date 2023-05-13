@@ -1,0 +1,4 @@
+'administer commerce_product_review_type':
+  title: 'Administer product review types'
+  description: 'Administer the types of available product reviews.'
+  'restrict access': TRUE

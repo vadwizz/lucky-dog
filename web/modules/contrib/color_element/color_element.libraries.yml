@@ -1,0 +1,15 @@
+color_element_field:
+  version: VERSION
+  css:
+    theme:
+      css/color_element_field.css: {}
+  js:
+    js/color_element_field.js: {}
+  dependencies:
+    - core/jquery
+
+color_formatter:
+  version: VERSION
+  css:
+    theme:
+      css/color_formatter.css: {}

@@ -1,0 +1,21 @@
+# Mmenu Default
+mmenu.default:
+  css:
+    component:
+      css/drupal-mmenu.css: {}
+  js:
+    js/mmenu_fire.js: {}
+
+  dependencies:
+      - core/drupal
+      - core/jquery
+      - core/drupalSettings
+
+# Mmenu libraries
+mmenu.main:
+  css:
+    component:
+      /libraries/mmenu/dist/mmenu.css: {}
+  js:
+    /libraries/mmenu/dist/mmenu.js: {}
+

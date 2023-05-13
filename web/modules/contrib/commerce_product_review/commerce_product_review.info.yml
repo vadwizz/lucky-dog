@@ -1,0 +1,14 @@
+name: 'Commerce Product Review'
+type: module
+description: 'Provides review feature for Drupal Commerce products.'
+core_version_requirement: ^9.2 || ^10
+package: Commerce
+
+dependencies:
+  - commerce:commerce_price
+  - commerce:commerce_product
+
+# Information added by Drupal.org packaging script on 2022-08-19
+version: '8.x-1.0-alpha7'
+project: 'commerce_product_review'
+datestamp: 1660922780

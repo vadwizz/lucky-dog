@@ -1,0 +1,21 @@
+{
+  "name": "drupal/color_element",
+  "description": "Defines a colour picker field type.",
+  "type": "drupal-module",
+  "homepage": "http://drupal.org/project/color_element",
+  "authors": [
+    {
+      "name": "Scot Hubbard",
+      "email": "scot@scotserve.net",
+      "homepage": "https://www.drupal.org/u/scothubbard",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "http://drupal.org/project/color_element",
+    "source": "https://git.drupalcode.org/project/color_element"
+  },
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {}
+}

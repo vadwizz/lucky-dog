@@ -1,0 +1,8 @@
+.color-element {
+  height: 32px;
+  width: 64px;
+}
+
+.field--type-color-field.field--label-inline .field__item {
+  float: left;
+}

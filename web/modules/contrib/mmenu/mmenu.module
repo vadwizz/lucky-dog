@@ -1,0 +1,8 @@
+<?php
+
+
+function mmenu_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'mmenu/mmenu.default';
+  $page['#attached']['library'][] = 'mmenu/mmenu.main';
+}
+

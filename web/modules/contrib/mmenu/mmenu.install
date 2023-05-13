@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Install and uninstall functions for the mobile sliding menu module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function mmenu_install() {
+
+}
+
+/**
+ * Implements hook_uninstall().
+ *
+ * Removes variables on uninstall.
+ */
+function mmenu_uninstall() {
+  // Deletes mmenu.settings.
+  \Drupal::configFactory()->getEditable('mmenu.settings')
+    ->delete();
+
+  // Clears mmenus cache.
+  \Drupal::cache()->delete('mmenus:cache');
+}
+
