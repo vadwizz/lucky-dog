@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "file-type": "^16.5.3",
-    "imagemin-pngquant": "^9.0.2"
+    "imagemin-pngquant": "^9.0.2",
+    "jquery-cycle": "^3.0.3"
   }
 }

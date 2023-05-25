@@ -48,7 +48,44 @@ console.log(viewsPrice);
 
 
 
+$('.expanded.dropdown').mouseenter(function () { 
 
+  $(this).addClass('open');
 
 });
 
+$('.expanded.dropdown').mouseleave(function () { 
+
+  $(this).removeClass('open');
+  
+});
+
+
+
+
+let image1 = $('#views-bootstrap-block-image-block-1 > div > div:nth-child(1) > div > span > img');
+$(image1).click(function (e) { 
+  window.location.href= "/cat"
+});
+
+let image2 = $('#views-bootstrap-block-image-block-1 > div > div:nth-child(2) > div > span > img');
+$(image2).click(function (e) { 
+  window.location.href= "/dog"
+});
+
+let image3 = $('#views-bootstrap-block-image-block-1 > div > div:nth-child(3) > div > span > img');
+$(image3).click(function (e) { 
+  window.location.href= "/parrot"
+});
+
+let image4 = $('#views-bootstrap-block-image-block-1 > div > div:nth-child(4) > div > span > img');
+$(image4).click(function (e) { 
+  window.location.href= "/rodent"
+});
+
+let image5 = $('#views-bootstrap-block-image-block-1 > div > div:nth-child(5) > div > span > img');
+$(image5).click(function (e) { 
+  window.location.href= "/fish"
+});
+
+});

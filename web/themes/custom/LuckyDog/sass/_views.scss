@@ -8,9 +8,11 @@
     align-items: flex-start;
     max-width: 400px;
     height: 350px;
+    margin-bottom: 20px;
 
     .views-field-field-image{
         .field-content{
+            
             height: 300px;
             display: flex;
             justify-content: center;
@@ -25,7 +27,26 @@
         }
     }
 
-    .views-field-field-title{
-        font-size: 14px;    
+    .views-field-field-title,a{
+        color: #000;
+        font-size: 18px;    
     }
 }
+
+
+#views-bootstrap-block-image-block-1 {
+    margin-top: 50px;
+}
+
+#views-bootstrap-block-image-block-1 > div > div > div > span > img{
+    cursor: pointer;
+    transition: filter 0.3s ease-in-out;
+    margin-bottom: 30px;
+}
+
+#views-bootstrap-block-image-block-1 > div > div > div > span > img:hover{
+  // border: 5px solid grey; 
+   filter: blur(2px);
+    
+}
+

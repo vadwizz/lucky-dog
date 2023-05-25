@@ -23,3 +23,6 @@ regions:
 libraries-extend:
   bootstrap/framework:
     - luckydog/framework
+    
+libraries:
+  - luckydog/jquery.cycle

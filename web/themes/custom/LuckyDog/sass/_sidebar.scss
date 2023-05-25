@@ -1,0 +1,66 @@
+
+.form-inline{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    
+
+    .form-item-search-api-fulltext{
+        position: relative;
+
+        label{
+            font-weight: bold;
+        }
+        padding: 10xp 0;
+        input{
+            max-width: 200px;
+            border: 1px solid #19a844;
+            border-radius: 5px 0 0 5px;
+            margin: 10px 0;
+        }
+    }
+
+    button{
+        padding: 6px 10px;
+        margin: 18px 0 0 0 ;
+        background-color: #19a844;
+        border: 1px solid #19a844;
+        border-radius: 0 5px 5px 0;
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 0.1px;
+        font-weight: bold;
+    }
+}
+
+.facets-widget-checkbox{
+    margin-top: 20px;
+    margin-left: -18px;
+
+    ul{
+        list-style-type: none;
+        margin: 0 0 10px 0;
+
+        li{
+
+            margin-bottom: 10px;
+
+            label{
+                font-size: 18px;
+                margin: 0 0 0 5px;
+            }
+        }
+    }
+
+    .facets-item::marker{
+        display: none;
+    }
+
+
+}
+
+.facets-active{
+    background-color: #19a844;
+}

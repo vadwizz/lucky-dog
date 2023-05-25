@@ -1,0 +1,26 @@
+{
+  "name": "jquery-cycle",
+  "version": "3.0.3",
+  "description": "A slideshow plugin for jQuery",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/benesch/jquery-cycle.git"
+  },
+  "keywords": [
+    "jquery",
+    "slideshow",
+    "carousel",
+    "slider",
+    "cycle"
+  ],
+  "author": "M. Alsup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benesch/jquery-cycle/issues"
+  },
+  "homepage": "https://github.com/benesch/jquery-cycle",
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
+}
